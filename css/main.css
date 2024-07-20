@@ -1,0 +1,67 @@
+.hero {
+  display: flex;
+  width: 1100px;
+  height: auto;
+  background: var(--combo);
+  margin-top: 0px;
+}
+.content {
+  margin: 120px;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Playwrite AU VIC";
+  color: #fff;
+  font-size: 60px;
+  align-items: center;
+  position: relative;
+
+
+
+}
+
+span {
+  color: #ffa500;
+
+}
+
+.btn-learn {
+  background-color: #ffa500;
+  color: cornsilk;
+}
+.hover-scale:hover {
+  transition: 0.5s;
+  transform: scale(1.1, 1.1);
+  background-color: rgba(231, 123, 51, 0.897);
+}
+.btn {
+  min-width: 150px;
+  margin: 10px 0px;
+  padding: 15px 0;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-size: 18px;
+}
+.image {
+  display: flex;
+  margin: 5px;
+}
+.image > img {
+  display: block; /* Add this to make justify-content work */
+  margin: 30px auto; /* Add this to center the image horizontally */
+  width: 400px;
+  height: fit-content;
+  animation: img 60s linear infinite;
+  border: wheat solid 3px;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+@keyframes img {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,39 @@
+.order-items {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+.order-item img {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 230px;
+}
+.order-item-subtitle {
+  color: rgb(229, 110, 19);
+  font-weight: normal;
+}
+.order-item-title {
+  font-size: 19px;
+}
+.order-item {
+  position: relative;
+}
+.order-item .icon {
+  width: 30px;
+  height: 30px;
+  background: var(--combo);
+  color: wheat;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.1s ease;
+}
+.order-item:hover .icon {
+  visibility: visible;
+  opacity: 1;
+}

@@ -1,0 +1,61 @@
+/* SPRITES.................................................................................................. */
+.sprites {
+    display:flex;
+    margin-bottom: 55px;
+}
+.sprite-item{
+    flex:1;
+    text-align: center;
+    border-right: 1px solid var(--maincolor);
+}
+.sprite-item:last-child{
+    border:0;
+}
+.sprite-info h3{
+    font-size: 17px;
+    margin-left: 10px;
+}
+.sprite-info span{
+    color: rgb(216, 51, 0);
+    font-size: 15px;
+margin-left: 10px;}
+.sprite-icon{
+    background-image: url(../images/service-icon.png);
+    height: 55px;
+    background-repeat: no-repeat;
+}
+.sprite-icon-1{
+background-position: center -10px;
+transition: all .5s;
+}
+.sprite-item:hover .sprite-icon-1{
+    background-position: center -70px;
+}
+.sprite-icon-2{
+background-position: center -125px;
+transition: all .5s;
+}
+.sprite-item:hover .sprite-icon-2{
+    background-position: center -180px;
+}
+.sprite-icon-3{
+background-position: center -245px;
+transition: all .5s;
+}
+.sprite-item:hover .sprite-icon-3{
+    background-position: center -295px;
+}
+.sprite-icon-4{
+background-position: center -349px;
+transition: all .5s;
+ }
+ .sprite-item:hover .sprite-icon-4{
+    background-position: center -410px;
+}
+.sprite-icon-5{
+background-position: center -480px;
+transition: all .5s;
+}
+.sprite-item:hover .sprite-icon-5{
+    background-position: center -547px;
+}

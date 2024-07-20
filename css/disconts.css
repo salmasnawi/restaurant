@@ -1,0 +1,79 @@
+
+  
+/* DISCOUNT................................................................................................... */
+.discount {
+    margin:30px 0;
+    display: flex;
+}
+.discount-desc{
+    flex:2;
+    padding: 20px;
+    position: relative;
+    background-image: url(../images/images\ \(1\).jpeg);
+    background-size: cover;
+}
+.discount-item {
+    flex: 1;
+    height: 300px;
+    position: relative;
+}
+.discount-item-info{
+    position: absolute;
+    top:20px;
+    left: 15px;
+}
+.discount-item-info h3{
+    font-weight: normal;
+    color: var(--maincolor);
+}
+.discount-item-info h2{
+    font-size: 20px;
+}
+.discount-item:nth-child(2){
+    background-image: url(../images/disconts-pic1.jpg);
+    background-size: cover;
+    margin:0 20px;
+    transition: transform 0.5s;
+    color: #f7f3ef;
+}
+
+.discount-item:nth-child(2):hover{
+    transform: scale(1.1);
+}
+.discount-desc .top{
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+.discount-desc .top .icon{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 50px;
+    color: orangered;
+}
+.discount-desc .top +p{
+    line-height: 1.7;
+}
+.discount-desc .bullets span{
+     display: inline-block;
+     width:50px;
+     height: 2px;
+     background: var(--maincolor);
+     margin-left: 10px;
+}
+.discount-desc .bullets{
+    text-align: right;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.discount-item:nth-child(3){
+    background-image: url(../images/pic1.jpg);
+    background-size: cover; 
+    transition: transform .5s;
+}
+.discount-item:nth-child(3):hover{
+    transform: scale(1.1);
+}

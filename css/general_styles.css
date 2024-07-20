@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 2950px;
+  font-family: "Playwrite AU VIC";
+  background-color: #f399549a;
+}
+:root {
+  --maincolor: #000000;
+  --subcolor: #333;
+  --combo: linear-gradient(to right, #c42c2c 30%, #ffa500);
+}
+.container {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+.list-unstyled {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.section-padding {
+  padding: 40px 0;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.section-title {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.section-header .line {
+  display: block;
+  width: 100px;
+  margin: auto;
+  height: 2px;
+  background: var(--combo);
+  transition: 0.5s;
+}
+.section-header:hover .line {
+  width: 150px;
+}
