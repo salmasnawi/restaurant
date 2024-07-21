@@ -19,7 +19,7 @@
     border-radius: 30%;
 }
 .list-sweet li >a:hover{
-    background-color: rgb(255, 141, 48);
+    background-color: rgb(255, 223, 149);
 }
 .sweets-items{
  display: grid;
@@ -66,7 +66,7 @@ height: 450px;}
     transform: scalex(1);
 }
 .sweet-item i.active{
-    color: orangered;
+    color: rgb(251, 255, 0);
 }
 .sweet-info span{
     display: block;
@@ -79,7 +79,7 @@ height: 450px;}
     color: var(--combo);
 }
 .sweet-overlay ul li i {
-    color: orangered;
+    color: rgb(226, 212, 207);
     line-height: 40px;
 }
 

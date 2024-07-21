@@ -1,7 +1,5 @@
 
-  
-/* DISCOUNT................................................................................................... */
-.discount {
+  .discount {
     margin:30px 0;
     display: flex;
 }
@@ -50,7 +48,7 @@
     left: 0px;
     top: 0px;
     font-size: 50px;
-    color: orangered;
+    color: rgb(91, 59, 47);
 }
 .discount-desc .top +p{
     line-height: 1.7;
@@ -76,4 +74,7 @@
 }
 .discount-item:nth-child(3):hover{
     transform: scale(1.1);
+}
+.discount-subtitle{
+    color: #96908a;
 }

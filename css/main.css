@@ -19,6 +19,7 @@
 
 }
 
+
 span {
   color: #ffa500;
 
@@ -51,7 +52,7 @@ span {
   margin: 30px auto; /* Add this to center the image horizontally */
   width: 400px;
   height: fit-content;
-  animation: img 60s linear infinite;
+  animation: img 50s linear infinite;
   border: wheat solid 3px;
   border-radius: 100%;
   padding: 10px;
