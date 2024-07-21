@@ -56,6 +56,9 @@ span {
   border: wheat solid 3px;
   border-radius: 100%;
   padding: 10px;
+    border: 3px solid #fff; /* add a white border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* add a subtle shadow */
+  
 }
 
 @keyframes img {

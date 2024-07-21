@@ -9,6 +9,9 @@
     position: relative;
     background-image: url(../images/images\ \(1\).jpeg);
     background-size: cover;
+    border: 3px solid #fff;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 .discount-item {
     flex: 1;
@@ -33,6 +36,9 @@
     margin:0 20px;
     transition: transform 0.5s;
     color: #f7f3ef;
+    border: 3px solid #fff;
+    box-shadow: 0 7px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 .discount-item:nth-child(2):hover{
@@ -71,6 +77,9 @@
     background-image: url(../images/pic1.jpg);
     background-size: cover; 
     transition: transform .5s;
+    border: 2px solid #b9a9a9;
+    box-shadow: 0 7px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 .discount-item:nth-child(3):hover{
     transform: scale(1.1);

@@ -32,6 +32,9 @@
 }
 .sweet-img >img{
 width: 370px;    height: 450px;
+border: 5px solid #969595;
+box-shadow: 0 7px 4px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
 }
 .sweet-overlay{
     position: absolute;
@@ -44,7 +47,11 @@ width: 370px;    height: 450px;
 }
 .sweet-overlay> img{
     width: 370px;
-height: 450px;}
+height: 450px;
+width: 370px;    height: 450px;
+border: 5px solid #969595;
+box-shadow: 0 7px 4px rgba(0, 0, 0, 0.2);
+border-radius: 10px;}
 .sweet-overlay ul{
     position: absolute;
     top: 50%;
